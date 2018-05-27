@@ -1,0 +1,7 @@
+.search-container {
+    height: 250px;
+    background:#000000;
+    background-size: 100%;
+    background-image: url("https://craftbeerclub.com/media/gm/user/gmwc/club/club_banner_beer.gif");
+    background-repeat: no-repeat;
+}

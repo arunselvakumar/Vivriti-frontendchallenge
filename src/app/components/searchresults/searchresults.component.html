@@ -1,0 +1,128 @@
+<div class="search-grid">
+    <div class="filter-grid">
+            <div class="card quick-filters">
+                    <div class="card-body">
+                      <p class="card-text">Style</p>
+                      
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">Altbier</label>
+                      </div>
+
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">American Pale Ale</label>
+                      </div>
+
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">Kölsch</label>
+                      </div>
+
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">American IPA</label>
+                      </div>
+
+                      
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">Cream Ale</label>
+                      </div>
+
+                      
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">Pumpkin Ale</label>
+                      </div>
+
+                      
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">Oatmeal Stout</label>
+                      </div>
+
+                      
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">Cream Ale</label>
+                      </div>
+
+                      
+                      <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" for="customCheck1">Gose</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card quick-filters">
+                        <div class="card-body">
+                          <p class="card-text">Style</p>
+                          
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">Altbier</label>
+                          </div>
+    
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">American Pale Ale</label>
+                          </div>
+    
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">Kölsch</label>
+                          </div>
+    
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">American IPA</label>
+                          </div>
+    
+                          
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">Cream Ale</label>
+                          </div>
+    
+                          
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">Pumpkin Ale</label>
+                          </div>
+    
+                          
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">Oatmeal Stout</label>
+                          </div>
+    
+                          
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">Cream Ale</label>
+                          </div>
+    
+                          
+                          <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input">
+                                <label class="custom-control-label" for="customCheck1">Gose</label>
+                          </div>
+                        </div>
+                      </div>
+    </div>
+    <div class="searchresults-grid">
+            <div class="card quick-filters" *ngFor="let beer of beers">
+                        <div class="card">
+                              <div class="card-body">
+                                    <h4 class="card-title">{{ beer.name }}</h4>
+                                    <p class="card-text"><b>Style</b> {{beer.style}}</p>
+                                    <p class="card-text"><b>Ounces</b> {{beer.ounces}}</p>
+                                    <p class="card-text"><b>International Bittering Unit (IBU)</b> {{beer.ibu}}</p>
+                                    <p class="card-text"><b>Abv Value</b> {{beer.abv}}</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                        </div>
+    </div>
+</div>

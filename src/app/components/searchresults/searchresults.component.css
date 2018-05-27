@@ -1,0 +1,21 @@
+.search-grid {
+    width: 80%;
+    margin: auto;
+    background: white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.quick-filters {
+    margin: 10px;
+}
+
+.card-body-grid {
+    display: grid;
+    color: gray;
+    grid-template-columns: 15% 55% 30%
+}
+
+.card-body-grid h5 {
+    color:#e49b23;
+}

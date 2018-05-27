@@ -1,0 +1,20 @@
+html {
+    background: #e49b23;
+}
+
+.loader-wrap {
+    background: #e49b23;
+    text-align: center;
+}
+
+.loader-wrap .loader-item {
+    margin-top: 100px;
+}
+
+.loader-wrap .loader-description {
+    margin-top: 50px;
+}
+
+.loader-wrap .loader-description {
+    margin-top: 25px;
+}
